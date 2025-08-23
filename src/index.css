@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: 'KumbhSans';
-  src: url('fonts/KumbhSans-VariableFont_YOPQ\,wght.ttf');
+  src: url('../public/fonts/KumbhSans-VariableFont_YOPQ\,wght.ttf');
 }
 
 *,*::after,*::before{
