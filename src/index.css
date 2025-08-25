@@ -532,7 +532,6 @@ div.light-box-overly{
     display: grid;
     gap: 2rem;
     grid-template-columns: 1fr 1fr;
-    border: 2px solid red;
   }
 
   
