@@ -1,7 +1,8 @@
 
 export default function Cart({ cartValue, removeValue }){
 
-    
+    const singlePrice = 125;
+    const totalPrice = cartValue * singlePrice;
     const CartProduct = ()=>{
         return(
             <>
@@ -9,7 +10,7 @@ export default function Cart({ cartValue, removeValue }){
                 <img src="/images/image-product-1.jpg" alt="product image" width={'50px'} className="cart-product-image" />
                 <div className="cart-info-box">
                     <p>Fall Limited Edition Sneakers</p>
-                    <p>$125 * {cartValue} <span className="cart-total-price">${125 * cartValue}</span></p>
+                    <p>${singlePrice.toFixed(2)} * {cartValue} <span className="cart-total-price">${totalPrice.toFixed(2)}</span></p>
                 </div>
                 <div className="cart-trash-box">
                     <button className="cart-trash-btn" onClick={removeValue}></button>
