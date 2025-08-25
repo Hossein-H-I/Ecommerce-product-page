@@ -145,7 +145,7 @@ section.cart-section{
   position: absolute;
   top: 5rem;
   right: 50%;
-  transform: translate(-50%);
+  transform: translate(50%);
   z-index: 200;
   background-color: #fff;
   color: var(--Dark-grayish-blue);
@@ -432,6 +432,11 @@ div.light-box-overly{
 
 @media (min-width: 1080px){
 
+  div#root{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 
   header{
     padding:  2rem;
@@ -527,6 +532,7 @@ div.light-box-overly{
     display: grid;
     gap: 2rem;
     grid-template-columns: 1fr 1fr;
+    border: 2px solid red;
   }
 
   
