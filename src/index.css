@@ -566,6 +566,11 @@ div.light-box-overly{
   }
 
   /* ### slide style */
+
+  div.nav-slider-container{
+    display: none;
+  }
+
   div.product-slider-container{
     max-width: 500px;
   }

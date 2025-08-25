@@ -39,7 +39,7 @@ export default function ProductSlider ({handleOpenBox}){
             <div className="slide" onClick={handleOpenBox}>
                 <img src={slideImages[current]} alt="slider image"/>
             </div>
-            <div className="nav-slide-box">
+            <div className="nav-slide-box nav-slider-container">
                 <button className="nav-slide-btn nav-slide-left" onClick={prevSlide}>
                     <svg width="12" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 1 3 9l8 8" stroke="" stroke-width="3" fill="none" fill-rule="evenodd"/></svg>
                 </button>
